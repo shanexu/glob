@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/gobwas/glob"
+	"github.com/shanexu/glob"
 	"os"
 	"strings"
 	"testing"

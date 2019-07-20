@@ -7,7 +7,7 @@
 ## Install
 
 ```shell
-    go get github.com/gobwas/glob
+    go get github.com/shanexu/glob
 ```
 
 ## Example
@@ -16,7 +16,7 @@
 
 package main
 
-import "github.com/gobwas/glob"
+import "github.com/shanexu/glob"
 
 func main() {
     var g glob.Glob
@@ -137,8 +137,8 @@ Pattern | Fixture | Match | Speed (ns/op)
 `^ab.*ef$` | `abcdef` | `true` | 375
 `^ab.*ef$` | `af` | `false` | 145
 
-[godoc-image]: https://godoc.org/github.com/gobwas/glob?status.svg
-[godoc-url]: https://godoc.org/github.com/gobwas/glob
+[godoc-image]: https://godoc.org/github.com/shanexu/glob?status.svg
+[godoc-url]: https://godoc.org/github.com/shanexu/glob
 [travis-image]: https://travis-ci.org/gobwas/glob.svg?branch=master
 [travis-url]: https://travis-ci.org/gobwas/glob
 

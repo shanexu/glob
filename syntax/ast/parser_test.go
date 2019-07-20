@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gobwas/glob/syntax/lexer"
+	"github.com/shanexu/glob/syntax/lexer"
 )
 
 type stubLexer struct {

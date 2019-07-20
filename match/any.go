@@ -2,7 +2,7 @@ package match
 
 import (
 	"fmt"
-	"github.com/gobwas/glob/util/strings"
+	"github.com/shanexu/glob/util/strings"
 )
 
 type Any struct {
